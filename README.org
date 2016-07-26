@@ -5,8 +5,10 @@
 - note also that alert time was 18:03 CDT but chart time is in PDT
 * About
 - create README.org with [[https://github.com/syl20bnr/spacemacs/tree/master/layers/org][spacemacs and org-mode]]
-- export to README.html with =SPC m e h h=
-- execute the block blow with =SPC m ,=
+- [[https://github.com/syl20bnr/spacemacs/blob/master/layers/org/README.org#org-with-evil-org-mode][export]] to README.html with ~SPC m e h h~
+  - see also [[http://orgmode.org/manual/HTML-Export-commands.html#HTML-Export-commands][org-mode manual]] for alternate keybindings
+- [[https://github.com/syl20bnr/spacemacs/blob/master/layers/org/README.org#org-with-evil-org-mode][execute]] the block blow with ~SPC m <dotspacemacs-major-mode-leader-key>~
+
 #+BEGIN_SRC sh
 mv {README,index}.html
 #+END_SRC
