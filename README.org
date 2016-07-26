@@ -18,3 +18,4 @@ mv {README,index}.html
 - page is now publised to https://mozmar.github.io/alerts/
 - can now edit [[https://github.com/mozmar/alerts/edit/gh-pages/README.org][edit README.org from github web interface]]
   - this does not automatically trigger a site rebuild, but this [[https://github.com/mozmar/alerts/issues/1][can be done]] if we decide to prioritize it
+  - this and other [[https://github.com/mozmar/alerts/issues/1][issues]] have not been prioritized
