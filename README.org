@@ -13,6 +13,6 @@ mv {README,index}.html
 #+END_SRC
 - delete empy ~#+RESULTS:~ 
 - use [[https://github.com/syl20bnr/spacemacs/tree/master/layers/%252Bsource-control/git#working-with-git][magit]] to 
-  - stage and commit README.org and index.html in the gh-pages branch
+  - stage and commit [[https://github.com/mozmar/alerts/edit/gh-pages/README.org][README.org]] and [[https://github.com/mozmar/alerts/blob/gh-pages/index.html][index.html]] in the [[https://github.com/mozmar/alerts/tree/gh-pages/][gh-pages branch]]
   - push to https://github.com/mozmar/alerts
 - page is now publised to https://mozmar.github.io/alerts/
