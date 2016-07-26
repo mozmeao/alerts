@@ -3,3 +3,14 @@
 #+HTML: <iframe src="https://rpm.newrelic.com/public/charts/2DPZf2KMHNx" width="500" height="300" scrolling="no" frameborder="no"></iframe>
 - note that there was no corresponding drop in throughput; likely a localized network issue on the NR side
 - note also that alert time was 18:03 CDT but chart time is in PDT
+* About
+- create README.org with [[https://github.com/syl20bnr/spacemacs/tree/master/layers/org][spacemacs and org-mode]]
+- export to README.html with =SPC m e h h=
+- execute the block blow with =SPC m ,=
+#+BEGIN_SRC sh
+mv {README,index}.html
+#+END_SRC
+- use [[https://github.com/syl20bnr/spacemacs/tree/master/layers/%252Bsource-control/git#working-with-git][magit]] to 
+  - stage and commit README.org and index.html in the gh-pages branch
+  - push to https://github.com/mozmar/alerts
+- page is now publised to https://mozmar.github.io/alerts/
