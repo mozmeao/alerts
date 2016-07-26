@@ -8,7 +8,7 @@
 - [[https://github.com/syl20bnr/spacemacs/blob/master/layers/org/README.org#org-with-evil-org-mode][export]] to README.html with ~SPC m e h h~
   - see also [[http://orgmode.org/manual/HTML-Export-commands.html#HTML-Export-commands][org-mode manual]] for alternate keybindings
 - [[https://github.com/syl20bnr/spacemacs/blob/master/layers/org/README.org#org-with-evil-org-mode][execute]] the block blow with ~SPC m <dotspacemacs-major-mode-leader-key>~
-
+  - dotspacemacs-major-mode-leader-key is , on my machine
 #+BEGIN_SRC sh
 mv {README,index}.html
 #+END_SRC
