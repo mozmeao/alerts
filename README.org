@@ -11,8 +11,10 @@
 #+BEGIN_SRC sh
 mv {README,index}.html
 #+END_SRC
-- delete empy ~#+RESULTS:~ 
+- delete empy ~#+RESULTS:~
 - use [[https://github.com/syl20bnr/spacemacs/tree/master/layers/%252Bsource-control/git#working-with-git][magit]] to 
-  - stage and commit [[https://github.com/mozmar/alerts/edit/gh-pages/README.org][README.org]] and [[https://github.com/mozmar/alerts/blob/gh-pages/index.html][index.html]] in the [[https://github.com/mozmar/alerts/tree/gh-pages/][gh-pages branch]]
+  - stage and commit [[https://github.com/mozmar/alerts/blob/gh-pages/README.org][README.org]] and [[https://github.com/mozmar/alerts/blob/gh-pages/index.html][index.html]] in the [[https://github.com/mozmar/alerts/tree/gh-pages/][gh-pages branch]]
   - push to https://github.com/mozmar/alerts
 - page is now publised to https://mozmar.github.io/alerts/
+- can now edit [[https://github.com/mozmar/alerts/edit/gh-pages/README.org][edit README.org from github web interface]]
+  - this does not automatically trigger a site rebuild, but this [[https://github.com/mozmar/alerts/issues/1][can be done]] if we decide to prioritize it
